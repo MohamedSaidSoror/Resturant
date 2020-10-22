@@ -1,0 +1,159 @@
+.clr
+{
+    clear: both;
+}
+body
+{
+   margin: 0;
+   padding: 0; 
+}
+.home
+{
+    overflow: hidden;
+    height: 650px;
+    background-image: url('images/shutterstock_277750193.jpg');
+    background-size: 100% 100%;
+}
+nav
+{
+    background-color: rgba(0,0,0,0.5);
+    height: 60px;
+    overflow: hidden;
+}
+nav ul li
+{
+    
+    float: left;
+    margin:2px;
+    list-style-type: none;
+    margin: 0 20px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    
+}
+nav ul li a:hover
+{
+    
+    color: rgb(161, 88, 88);
+    font-size: 21px;
+    
+}
+.logo
+{
+    height: 40px;
+    width: 65%;
+    float: left;
+}
+.logo img
+{
+    width: 10%;
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.info
+{
+    width: 30%;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center;
+    color: #fff;
+}
+.info h1
+{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.info p
+{
+    margin-top: 0;
+    font-size: 20px;
+}
+.info button
+{
+    font-size: 20px;
+    padding: 10 30;
+    cursor: pointer;
+}
+.info .btn1
+{
+    background-color: tan;
+}
+.info .btn2
+{
+    background-color: #fff;
+}
+.chief
+{
+    width: 40%;
+    float: left;
+}
+.chief img
+{
+    width: 100%;
+    height: 100%;
+}
+.chief-info
+{
+    width: 60%;
+    text-align: center;
+    float: left;
+    margin: 150 0 0;
+    padding: 100 0;
+}
+.chief-info h2
+{
+    margin-top: 0;
+
+}
+
+.chief-info span
+{
+    margin-bottom: 0;
+    font-family: 'Dancing Script',cursive;
+    font-size: 18px;
+    color: #f2ce08;
+}
+.chief-info p
+{
+    padding: 30 50;
+}
+.chief-info button
+{
+    padding: 10 20;
+    font-size: 18px;
+    cursor: pointer;
+}
+.back
+{
+    height: 500px;
+    background-image: url('images/bgs.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.products .product
+{
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+.products .product img
+{
+    border-radius: 50% 50%;
+    
+}
+.products .product p
+{
+    font-size: 0 20;
+    font-size: 18px;
+}
+hr
+{
+    width: 80px;
+}
